@@ -12,7 +12,7 @@ var imports = module.exports = {};
 var _aliase = {};
 
 imports.aliase = function(name, aliase){
-  if ('string' === instanceof name){
+  if ('string' === typeof name){
     _aliase[name] = aliase;
     return;
   }
