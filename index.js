@@ -11,6 +11,13 @@ var imports = module.exports = {};
 
 var _aliase = {};
 
+/**
+ * [aliase description]
+ * @param  {[type]} name   [description]
+ * @param  {[type]} aliase [description]
+ * @return {[type]}        [description]
+ */
+
 imports.aliase = function(name, aliase){
   if ('string' === typeof name){
     _aliase[name] = aliase;
@@ -21,6 +28,18 @@ imports.aliase = function(name, aliase){
     _aliase[key] = name[key];
   }
 
+};
+
+/**
+ * [preload description]
+ * @return {[type]} [description]
+ */
+
+imports.preload = function(){
+  var args = Array.prototype.slice.call(arguments,0);
+  for (var i = 0; i < args.length; i++){
+    require(args[i]);
+  }
 };
 
 
