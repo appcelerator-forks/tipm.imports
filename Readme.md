@@ -1,17 +1,9 @@
 
 # imports
 
-  Expose Components `require` function to global scope as `imports`. Useful when using components in Titanium projects and even in browser apps when building standalone components.
+  Expose Components `require` function to global scope as `imports`.
 
 ## Installation
-
-  Install with [component(1)](http://component.io):
-
-    $ component install tipm/imports
-
-## API
-
-
 
 ## License
 

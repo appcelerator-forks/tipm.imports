@@ -1,0 +1,14 @@
+{
+  "name": "imports",
+  "repo": "tipm/imports",
+  "description": "Expose the component's `require` function to platform's global scope as `imports`",
+  "version": "0.1.0",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
