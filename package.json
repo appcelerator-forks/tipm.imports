@@ -1,14 +1,22 @@
 {
-  "name": "imports",
-  "repo": "tipm/imports",
-  "description": "Expose the component's `require` function to platform's global scope as `imports`",
+  "name": "tipm-imports",
   "version": "0.1.0",
-  "keywords": [],
-  "dependencies": {},
-  "development": {},
+  "description": "Expose Components require function to global scope as imports",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tipm/imports.git"
+  },
+  "author": "Christian Sullivan <cs@bodhi5.com>",
   "license": "MIT",
-  "main": "index.js",
-  "scripts": [
-    "index.js"
-  ]
+  "bugs": {
+    "url": "https://github.com/tipm/imports/issues"
+  },
+  "keywords": [
+    "component",
+    "titanium",
+    "plugin"
+  ],
+  "dependencies": { },
+  "devDependencies": { },
+  "main": "index.js"
 }
