@@ -1,9 +1,15 @@
 
 # imports
 
-  Expose Components `require` function to global scope as `imports`.
+  Component build plugin for exposing Component's `require` function to global scope as `imports`.
 
 ## Installation
+
+    $ component install tipm-imports
+
+## Usage
+
+    $ component build --use tipm-imports
 
 ## License
 
